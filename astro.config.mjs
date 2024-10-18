@@ -5,21 +5,34 @@ import starlight from '@astrojs/starlight';
 export default defineConfig({
 	integrations: [
 		starlight({
-			title: 'My Docs',
+			title: 'Monads',
 			social: {
-				github: 'https://github.com/withastro/starlight',
+				github: 'https://github.com/lean-mind/monads',
 			},
 			sidebar: [
 				{
-					label: 'Guides',
-					items: [
-						// Each item here is one entry in the navigation menu.
-						{ label: 'Example Guide', slug: 'guides/example' },
-					],
+					label: 'How to use',
+					autogenerate: { directory: 'how-to-use' },
 				},
 				{
-					label: 'Reference',
-					autogenerate: { directory: 'reference' },
+					label: 'Either',
+					autogenerate: { directory: 'either' },
+				},
+				{
+					label: 'Option',
+					autogenerate: { directory: 'option' },
+				},
+				{
+					label: 'Try',
+					autogenerate: { directory: 'try' },
+				},
+				{
+					label: 'Future',
+					autogenerate: { directory: 'future' },
+				},
+				{
+					label: 'IO',
+					autogenerate: { directory: 'io' },
 				},
 			],
 		}),
