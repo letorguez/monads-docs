@@ -17,10 +17,6 @@ export default defineConfig({
 					autogenerate: { directory: 'how-to-use' },
 				},
 				{
-					label: 'Either',
-					autogenerate: { directory: 'either' },
-				},
-				{
 					label: 'Option',
 					autogenerate: { directory: 'option' },
 				},
@@ -29,12 +25,16 @@ export default defineConfig({
 					autogenerate: { directory: 'try' },
 				},
 				{
-					label: 'Future',
-					autogenerate: { directory: 'future' },
+					label: 'Either',
+					autogenerate: { directory: 'either' },
 				},
 				{
 					label: 'IO',
 					autogenerate: { directory: 'io' },
+				},
+				{
+					label: 'Future',
+					autogenerate: { directory: 'future' },
 				},
 			],
 		}),
