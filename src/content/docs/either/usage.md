@@ -1,5 +1,7 @@
 ---
 title: Usage
+next: false
+prev: false
 ---
 
 The `Either` monad represents a value of one of two possible types (a disjoint union).

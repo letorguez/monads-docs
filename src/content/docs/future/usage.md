@@ -1,5 +1,7 @@
 ---
 title: Usage
+next: false
+prev: false
 ---
 
 The `Future` monad represents a computation that may be executed asynchronously.

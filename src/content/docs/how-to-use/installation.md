@@ -1,5 +1,7 @@
 ---
 title: Getting started
+next: false
+prev: false
 ---
 
 ## Installation

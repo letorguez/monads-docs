@@ -1,5 +1,7 @@
 ---
 title: Usage
+next: false
+prev: false
 ---
 
 The `Try` monad represents a computation that may fail.

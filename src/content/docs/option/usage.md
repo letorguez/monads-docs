@@ -1,5 +1,7 @@
 ---
 title: Usage
+next: false
+prev: false
 ---
 
 The `Option` monad represents a value that may or may not be present.

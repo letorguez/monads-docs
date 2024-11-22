@@ -1,5 +1,7 @@
 ---
 title: Usage
+next: false
+prev: false
 ---
 
 The `IO` monad represents a computation that may have side effects.
