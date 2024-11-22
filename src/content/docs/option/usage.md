@@ -76,13 +76,13 @@ import { Option } from '@leanmind/monads';
 
 const some = Option.of(42).match(
   x => x + 1,
-  () => 'No value'
+  () => 0
 ); // 43
 
 const none = Option.of(null).match(
   x => x + 1,
-  () => 'No value'
-); // 'No value'
+  () => 0
+); // 0
 ```
 
 ## Checking if an Option is Some or None
