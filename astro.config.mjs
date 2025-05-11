@@ -1,7 +1,6 @@
-import {defineConfig} from 'astro/config';
+import { defineConfig } from 'astro/config';
 import starlight from '@astrojs/starlight';
 
-// https://astro.build/config
 export default defineConfig({
     site: 'https://letorguez.github.io',
     base: 'monads-docs',
@@ -23,28 +22,31 @@ export default defineConfig({
             sidebar: [
                 {
                     label: 'How to use',
-                    autogenerate: {directory: 'how-to-use'},
+                    autogenerate: { directory: 'how-to-use' },
                 },
                 {
                     label: 'Option',
-                    autogenerate: {directory: 'option'},
+                    autogenerate: { directory: 'option' },
                 },
                 {
                     label: 'Try',
-                    autogenerate: {directory: 'try'},
+                    autogenerate: { directory: 'try' },
                 },
                 {
                     label: 'Either',
-                    autogenerate: {directory: 'either'},
+                    autogenerate: { directory: 'either' },
                 },
                 {
                     label: 'IO',
-                    autogenerate: {directory: 'io'},
+                    autogenerate: { directory: 'io' },
                 },
                 {
                     label: 'Future',
-                    autogenerate: {directory: 'future'},
+                    autogenerate: { directory: 'future' },
                 },
+            ],
+            customCss: [
+                './src/styles/custom.css',
             ],
         }),
     ],
